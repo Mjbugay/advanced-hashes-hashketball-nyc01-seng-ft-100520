@@ -131,13 +131,13 @@ end
 # Write code here
 
 def num_points_scored(player_name)
-  game_hash.each do |location, team_data|
-    team_data.each do |attribute, data|
-      data.each do |data_item|
-      end
-    end
-  end
+  game_hash.each do |team, team_data|
+    
+    
+    
+    
 end
+
 
 
 
