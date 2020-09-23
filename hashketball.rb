@@ -159,8 +159,7 @@ def team_colors(team_input)
 end
 
 def team_names
-  teams = team_names
-  teams.each do |name|
+  teams.map do |name|
     return name[:team_name]
   end
 end
