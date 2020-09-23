@@ -157,7 +157,8 @@ def team_colors(team_input)
     return game_hash[:home][:colors]
   end
 end
-      
+
+
       
 
 
