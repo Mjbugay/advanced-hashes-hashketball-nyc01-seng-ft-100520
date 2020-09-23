@@ -151,7 +151,8 @@ def shoe_size(name)
 end
       
 def team_colors(team_input)
-  if 
+  if team_input == "Charlotte Hornets"
+    
       
       
 
