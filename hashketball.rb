@@ -187,7 +187,12 @@ def player_stats(input)
         value.each do |player|
           if input == player[:player_name]
             player.delete(:player_name)
-            
+            return player 
+          end
+        end
+      end
+    end
+  end
 
 
 
