@@ -152,7 +152,11 @@ end
       
 def team_colors(team_input)
   if team_input == "Charlotte Hornets"
-    return game_hash[:]
+    return game_hash[:away][:colors]
+  else
+    return game_hash[:home][:colors]
+  end
+end
       
       
 
