@@ -181,7 +181,8 @@ def player_numbers(input)
 end
 
 def player_stats(input)
-  game_hash.each do |
+  game_hash.each do |team, team_info|
+    
 
 
 
