@@ -163,8 +163,6 @@ def team_names
     return team_info[:team_name]
   end
 end
-      
-team_names
 
 
 
